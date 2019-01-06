@@ -1,25 +1,10 @@
-# Clima
-Learn to make iOS Apps with [The App Brewery](https://www.appbrewery.co) 📱 | Project Stub | (Swift 4.0/Xcode 9) - Clima App
+# Weather
 
-Beginner: Download the starter project files as .zip and extract the files to your desktop.
-
-Pro: Git clone to your Xcode projects folder.
+Starter project for the Clima app https://www.appbrewery.co/p/how-to-make-app-ios Copyright © The App Brewery
 
 ## Finished App
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/Clima.gif)
 
-## Fix for Cocoapods v1.0.1 and below
-
-```ruby
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['SWIFT_VERSION'] = '3.0'
-      config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '10.10'
-    end
-  end
-end
-```
 
 ## Fix for App Transport Security Override
 
@@ -40,5 +25,4 @@ end
 ```
 
 
-Copyright © The App Brewery
 
